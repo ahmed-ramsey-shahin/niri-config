@@ -622,6 +622,7 @@ binds {
     // My custom bindings
     Mod+W hotkey-overlay-title="Open a Browser: Brave" { spawn "brave"; }
     Mod+X { spawn "sys-menu"; }
+    Mod+Shift+C { spawn "fuzzel-calc"; }
 }
 
 gestures {
