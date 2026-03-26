@@ -19,6 +19,8 @@ input {
             // If this section is empty, niri will fetch xkb settings
             // from org.freedesktop.locale1. You can control these using
             // localectl set-x11-keymap.
+            layout "us,ar"
+            options "grp:alt_shift_toggle"
         }
 
         // Enable numlock on startup, omitting this setting disables it.
@@ -619,4 +621,11 @@ binds {
     // My custom bindings
     Mod+W hotkey-overlay-title="Open a Browser: Brave" { spawn "brave"; }
     Mod+X { spawn "sys-menu"; }
+}
+
+gestures {
+    // Completely disable all hot corners
+    hot-corners {
+        off
+    }
 }
