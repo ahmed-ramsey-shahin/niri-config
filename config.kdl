@@ -320,6 +320,7 @@ animations {
 window-rule {
     match app-id="kitty"
     draw-border-with-background false
+    open-maximized-to-edges true
 }
 
 window-rule {
